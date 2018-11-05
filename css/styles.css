@@ -38,11 +38,11 @@ section{
     width:150px;
     font-family: 'Open Sans', sans-serif;
 }
-::placeholder {
+::placeholder,:-ms-input-placeholder, ::-ms-input-placeholder { 
     color: #d0c9c4;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
-}
+ }
 .search{
     border:1px solid #cb542d;
     cursor: pointer;
