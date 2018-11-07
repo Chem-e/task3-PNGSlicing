@@ -1,0 +1,149 @@
+body,
+html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 760px;
+    width: 600px;
+    background-color: #2e6287;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    margin-top: 32px;
+}
+
+::-webkit-input-placeholder {
+    color: #7b8b96;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #7b8b96;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #7b8b96;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: #7b8b96;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 720px;
+    width: 550px;
+    background-color: white;
+    border-top: 5px solid #a6dc0a;
+    border-bottom: 5px solid #2e6287;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.msgIcons {
+    color: #b1b1b1;
+    margin: 14px;
+}
+
+.wrapper {
+    border: 1px solid #d6d7d9;
+    border-radius: 4px;
+    padding: 5px;
+    height: 50px;
+    width: 470px;
+}
+
+.plus {
+    border-radius: 0px;
+    color: #a6dc0a;
+    float: right;
+}
+
+.i1 .box::-webkit-input-placeholder {
+    color: #7b8b96;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+.icon {
+    float: right;
+    width: 40px;
+    height: 50px;
+    border: #a6dc0a;
+}
+
+.i1 {
+    border: none;
+    height: 40px;
+    width: 400px;
+    margin: 5px;
+}
+
+.i2 {
+    border: 1px solid #d6d7d9;
+    border-radius: 4px;
+    padding: 5px;
+    height: 50px;
+    width: 470px;
+}
+
+.i3 {
+    height: 170px;
+}
+
+.i2,
+.i3 {
+    background-color: #ededf3;
+    border: 1px solid #d6d7d9;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 470px;
+}
+
+h2 {
+    color: #175692;
+}
+
+h2,
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+    height: 45px;
+    background-color: white;
+    border: 1px solid #d6d7d9;
+    width: 470px;
+    border-bottom: none !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.items {
+    display: flex;
+}
